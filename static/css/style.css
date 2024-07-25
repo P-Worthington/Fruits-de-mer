@@ -83,3 +83,17 @@
     margin-top: -20px;
     letter-spacing: 2px;
 }
+
+/*make reservation button styling*/
+.make-res {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-light {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 4px;
+}
