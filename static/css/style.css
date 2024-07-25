@@ -97,3 +97,93 @@
     font-family: "Montserrat", sans-serif;
     letter-spacing: 4px;
 }
+
+/*quotes carousel*/
+
+.carousel-container {
+    margin-top: 15px;
+}
+
+.carousel-item {
+    height: 60vh;
+    background-color: #000;
+    position: relative;
+}
+
+.carousel-content {
+    position: absolute;
+    z-index: 98;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+    text-align: center;
+    width: fit-content;
+    max-width: 400px;
+    height: fit-content;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+}
+
+.slide-1 {
+    background-image: url(../images/carousel-images/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.slide-2 {
+    background-image: url(../images/carousel-images/slide-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.slide-3 {
+    background-image: url(../images/carousel-images/slide-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.carousel-content h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.carousel-content p {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+}
+
+.carousel-content a {
+    color: black;
+    letter-spacing: 1px;
+}
+
