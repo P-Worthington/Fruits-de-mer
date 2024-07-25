@@ -98,11 +98,30 @@
     letter-spacing: 4px;
 }
 
-/*quotes carousel*/
-
-.carousel-container {
-    margin-top: 15px;
+/*slogan*/
+.slogan {
+    display: flex;
+    justify-content: center;
 }
+
+.quotes-inner {
+    max-width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.quotes-inner > h6 {
+    font-family: "Cinzel", serif;
+    line-height: 2;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.quotes-inner > p {
+    text-align: right;
+}
+
+/*quotes carousel*/
 
 .carousel-item {
     height: 60vh;
