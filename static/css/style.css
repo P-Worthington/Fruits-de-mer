@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*menu bar styling*/
 .outer-header {
+    z-index: 99;
     display: flex;
     justify-content: end;
     background-color: #333;
@@ -38,10 +43,43 @@
 
 /*navigation box*/
 .navbox {
+    z-index: 98;
     display: none;
     background-color: blueviolet;
     height: 100vh;
     width: 100%;
     position: fixed;
     top: 58px;
+}
+
+/*hero image*/
+.hero-img {
+    position: relative;
+    background-image: url(../images/home-images/hero-img-oysters.jpg);
+    height: 80vh;
+    margin-top: 58px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*title*/
+.title {
+    position: inherit;
+    padding-top: 50px;
+    color: aliceblue;
+}
+
+.title > h1 {
+    font-size: 80px;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 25px;
+    font-family: "Cinzel", serif;
+}
+
+.title > p {
+    text-align: center;
+    margin-top: -20px;
+    letter-spacing: 2px;
 }
