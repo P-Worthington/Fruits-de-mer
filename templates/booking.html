@@ -5,15 +5,33 @@
     <h1>make a reservation</h1>
 </div>
 
-<div class="makeres-outer">
-    <div class="makeres-inner">
-        <form action="">
-            <input type="text" id="name" name="fname" placeholder="First Name"><br>
-            <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
-            <input type="date" id="date" name="date" value="2018-07-22" min="2018-01-01" max="2018-12-31" /><br>
-            <input type="submit" value="Submit">
-        </form>
+<div class="container">
+    <div class="calendar">
+      <header>
+        <pre class="left">◀</pre>
+        
+        <div class="header-display">
+          <p class="display">""</p>
+        </div>
+  
+        <pre class="right">▶</pre>
+  
+      </header>
+  
+      <div class="week">
+        <div>Su</div>
+        <div>Mo</div>
+        <div>Tu</div>
+        <div>We</div>
+        <div>Th</div>
+        <div>Fr</div>
+        <div>Sa</div>
+      </div>
+      <div class="days"></div>
     </div>
-</div>
+    <div class="display-selected">
+      <p class="selected"></p>
+    </div>
+  </div>
 
 {% endblock %}
