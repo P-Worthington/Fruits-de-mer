@@ -92,6 +92,16 @@
     font-family: "Cinzel", serif;
 }
 
+li > a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+li > a:hover {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
 span {
     position: absolute;
     right: 20px;
@@ -289,3 +299,31 @@ footer {
     height: 60vh;
     background-color: #333;
 }
+
+/*booking page styling*/
+
+/*title*/
+.title-dark {
+    color: #333;
+    font-size: 50px;
+}
+
+.makeres-outer {
+    width: 90%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    margin-bottom: 15px;
+    min-height: fit-content;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.makeres-inner {
+    position: inherit;
+    right: 0;
+    width: 50%;
+}
+

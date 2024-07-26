@@ -1,6 +1,19 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h1>BOOKINGS</h1>
+<div class="title title-dark">
+    <h1>make a reservation</h1>
+</div>
+
+<div class="makeres-outer">
+    <div class="makeres-inner">
+        <form action="">
+            <input type="text" id="name" name="fname" placeholder="First Name"><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+            <input type="date" id="date" name="date" value="2018-07-22" min="2018-01-01" max="2018-12-31" /><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
 
 {% endblock %}
