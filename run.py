@@ -7,6 +7,26 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+@app.route("/")
+def booking():
+    return render_template("booking.html")
+
+@app.route("/")
+def careers():
+    return render_template("careers.html")
+
+@app.route("/")
+def menu():
+    return render_template("menu.html")
+
+@app.route("/")
+def news():
+    return render_template("news.html")
+
+@app.route("/")
+def opening():
+    return render_template("opening.html")
+
 
 if __name__ == "__main__":
     app.run(
