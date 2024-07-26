@@ -7,7 +7,7 @@
     z-index: 99;
     display: flex;
     justify-content: end;
-    background-color: #333;
+    background-color: aliceblue;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,28 +17,49 @@
 .inner-header {
     display: inline-block;
     cursor: pointer;
-    background-color: aqua;
-    margin-top: 10px;
+    margin-top: 6px;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
   
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 30px;
+    height: 3px;
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
 }
   
 .change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
+    transform: translate(0, 9px) rotate(-45deg);
 }
   
 .change .bar2 {opacity: 0;}
   
 .change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
+    transform: translate(0, -9px) rotate(45deg);
+}
+
+.home {
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    position: absolute;
+    text-decoration: none;
+    left: 10px;
+    top: 7px;
+    font-size: 25px;
+}
+
+.home a {
+    color: #000;
+}
+
+.phone-number {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    position: absolute;
+    right: 60px;
+    top: 12px;
 }
 
 /*navigation box*/
@@ -49,7 +70,7 @@
     height: 100vh;
     width: 100%;
     position: fixed;
-    top: 58px;
+    top: 48px;
 }
 
 /*hero image*/
@@ -57,7 +78,7 @@
     position: relative;
     background-image: url(../images/home-images/hero-img-oysters.jpg);
     height: 80vh;
-    margin-top: 58px;
+    margin-top: 48px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -110,14 +131,15 @@
     margin-bottom: 40px;
 }
 
-.quotes-inner > h6 {
+.quote-top {
     font-family: "Cinzel", serif;
     line-height: 2;
     letter-spacing: 3px;
     font-weight: 500;
+    text-align: left;
 }
 
-.quotes-inner > p {
+.quote-bottom {
     text-align: right;
 }
 
@@ -206,3 +228,12 @@
     letter-spacing: 1px;
 }
 
+/*food img*/
+.food-img {
+    position: relative;
+    background-image: url(../images/home-images/lobster-image.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
