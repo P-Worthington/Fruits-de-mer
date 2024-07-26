@@ -7,23 +7,23 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/")
+@app.route("/booking")
 def booking():
     return render_template("booking.html")
 
-@app.route("/")
+@app.route("/careers")
 def careers():
     return render_template("careers.html")
 
-@app.route("/")
+@app.route("/menu")
 def menu():
     return render_template("menu.html")
 
-@app.route("/")
+@app.route("/news")
 def news():
     return render_template("news.html")
 
-@app.route("/")
+@app.route("/opening")
 def opening():
     return render_template("opening.html")
 
