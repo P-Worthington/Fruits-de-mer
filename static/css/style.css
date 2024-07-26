@@ -68,11 +68,33 @@
 .navbox {
     z-index: 98;
     display: none;
-    background-color: blueviolet;
+    background-color: #333;
     height: 100vh;
-    width: 100%;
+    width: 500px;
+    max-width: 100%;
     position: fixed;
     top: 43px;
+    right: 0;
+}
+
+.navigation-content {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+}
+
+.navigation-content li {
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: aliceblue;
+    font-family: "Cinzel", serif;
+}
+
+span {
+    position: absolute;
+    right: 20px;
 }
 
 /*hero image*/
