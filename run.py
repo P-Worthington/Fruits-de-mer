@@ -28,7 +28,7 @@ def opening():
     return render_template("opening.html")
 
 @app.route("/location")
-def opening():
+def location():
     return render_template("location.html")
 
 
