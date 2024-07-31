@@ -27,6 +27,10 @@ def news():
 def opening():
     return render_template("opening.html")
 
+@app.route("/location")
+def opening():
+    return render_template("location.html")
+
 
 if __name__ == "__main__":
     app.run(
