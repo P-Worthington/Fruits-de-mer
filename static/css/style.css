@@ -112,7 +112,7 @@ span {
     position: relative;
     background-image: url(../images/home-images/hero-img-oysters.jpg);
     height: 80vh;
-    margin-top: 43px;
+    margin-top: -20px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -154,15 +154,15 @@ span {
 }
 
 /*slogan*/
-.slogan {
-    display: flex;
-    justify-content: center;
-}
+
 
 .quotes-inner {
-    max-width: 400px;
+    width: 450px;
+    max-width: 100%;
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .quote-top {
@@ -276,23 +276,23 @@ span {
 
 .news {
     margin-top: 15px;
-    text-align: center;
-}
-
-.news-container {
-    display: flex;
-    justify-content: space-around;
 }
 
 .news-item {
     margin-top: 15px;
     width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .news-item > img {
     object-fit: cover;
     width: 400px;
     height: 300px;
+}
+
+.date {
+    text-align: center;
 }
 
 footer {
@@ -303,6 +303,22 @@ footer {
 /*booking page styling*/
 
 /*title*/
+
+.alt-headings {
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+
+.calendar-outer {
+    margin-top: 30px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .title-dark {
     color: #333;
     font-size: 50px;
@@ -377,4 +393,6 @@ footer {
     padding: 20px 20px;
     text-align: center;
   }
+
+
 

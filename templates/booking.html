@@ -2,36 +2,36 @@
 {% block content %}
 
 <div class="title title-dark">
-    <h1>make a reservation</h1>
+    <h2 class="alt-headings">make a reservation</h2>
 </div>
 
-<div class="container">
+<div class="calendar-outer">
     <div class="calendar">
-      <header>
-        <pre class="left">◀</pre>
+        <header>
+            <pre class="left">◀</pre>
         
-        <div class="header-display">
-          <p class="display">""</p>
+            <div class="header-display">
+                <p class="display">""</p>
+            </div>
+  
+            <pre class="right">▶</pre>
+  
+        </header>
+  
+        <div class="week">
+            <div>Su</div>
+            <div>Mo</div>
+            <div>Tu</div>
+            <div>We</div>
+            <div>Th</div>
+            <div>Fr</div>
+            <div>Sa</div>
         </div>
-  
-        <pre class="right">▶</pre>
-  
-      </header>
-  
-      <div class="week">
-        <div>Su</div>
-        <div>Mo</div>
-        <div>Tu</div>
-        <div>We</div>
-        <div>Th</div>
-        <div>Fr</div>
-        <div>Sa</div>
-      </div>
-      <div class="days"></div>
+        <div class="days"></div>
     </div>
-    <div class="display-selected">
+  <div class="display-selected">
       <p class="selected"></p>
-    </div>
   </div>
+</div>
 
 {% endblock %}
