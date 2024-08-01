@@ -66,45 +66,45 @@ function displayCalendar() {
 displayCalendar();
 
 previous.addEventListener("click", () => {
-  days.innerHTML = "";
-  selected.innerHTML = "";
+    days.innerHTML = "";
+    selected.innerHTML = "";
 
-  if (month < 0) {
-    month = 11;
-    year = year - 1;
-  }
+    if (month < 0) {
+        month = 11;
+        year = year - 1;
+    }
 
-  month = month - 1;
+    month = month - 1;
 
-  date.setMonth(month);
+    date.setMonth(month);
 
-  displayCalendar();
-  displaySelected();
+    displayCalendar();
+    displaySelected();
 });
 
 next.addEventListener("click", () => {
-  days.innerHTML = "";
-  selected.innerHTML = "";
+    days.innerHTML = "";
+    selected.innerHTML = "";
 
-  if (month > 11) {
-    month = 0;
-    year = year + 1;
-  }
+    if (month > 11) {
+        month = 0;
+        year = year + 1;
+    }
 
-  month = month + 1;
-  date.setMonth(month);
+    month = month + 1;
+    date.setMonth(month);
 
-  displayCalendar();
-  displaySelected();
+    displayCalendar();
+    displaySelected();
 });
 
 function displaySelected() {
-  const dayElements = document.querySelectorAll(".days div");
-  dayElements.forEach((day) => {
-    day.addEventListener("click", (e) => {
-      const selectedDate = e.target.dataset.date;
-      selected.innerHTML = `Selected Date : ${selectedDate}`;
+    const dayElements = document.querySelectorAll(".days div");
+    dayElements.forEach((day) => {
+        day.addEventListener("click", (e) => {
+            const selectedDate = e.target.dataset.date;
+            selected.innerHTML = `Selected Date : ${selectedDate}`;
+        });
     });
-  });
 }
 displaySelected();
