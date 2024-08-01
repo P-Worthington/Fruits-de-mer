@@ -295,10 +295,58 @@ span {
     text-align: center;
 }
 
-footer {
-    height: 60vh;
-    background-color: #333;
+.news-text {
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+/*footer*/
+footer {
+    height: 50vh;
+    background-color: #333;
+    position: relative;
+}
+
+.footer-lists {
+    padding-top: 20px;
+}
+
+.footer-link {
+    padding-top: 20px;
+}
+
+.address {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.footer-ul-list {
+    list-style-type: none;
+    color: aliceblue;
+}
+
+/*Styling for social media links located in footer*/
+.footer-outer {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+}
+
 
 /*booking page styling*/
 
