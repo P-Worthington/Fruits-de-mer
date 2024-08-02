@@ -352,6 +352,15 @@ footer {
 
 /*title*/
 
+.bookings {
+    position: relative;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../images/opening-images/opening-hero-img.jpg);
+}
+
 .alt-headings {
     font-family: "Cinzel", serif;
     font-weight: 400;
@@ -445,15 +454,18 @@ footer {
 
 /*opening.html styling*/
 
-.opening-hero {
-    position: relative;
+.alt-hero {
+    margin-top: -20px;
+    padding-bottom: 100px;
+}
+
+.opening-times {
     background-image: url(../images/opening-images/opening-hero-img.jpg);
+    position: relative;
     height: fit-content;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    margin-top: -20px;
-    padding-bottom: 100px;
 }
 
 .open-now {
@@ -461,15 +473,23 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     background-color: aliceblue;
-    height: 150px;
-    margin-top: 50px;
-    padding-bottom: 100px;
+    height: fit-content;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
 .open-now > p {
     font-family: "Montserrat", sans-serif;
-    padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.times {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
 }
