@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+    font-family:"Montserrat", sans-serif;
+}
+
 /*menu bar styling*/
 .outer-header {
     z-index: 99;
@@ -486,10 +490,34 @@ footer {
     padding-right: 10px;
 }
 
-.times {
+.alt-page-content {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 2px;
+}
+
+/*menu page styling*/
+
+.alt-hero-box {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aliceblue;
+    height: fit-content;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.alt-hero-box > p {
+    color: #333;
+}
+
+.reduce-width {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
