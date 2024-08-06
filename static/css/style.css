@@ -306,10 +306,16 @@ span {
 
 /*footer*/
 footer {
-    height: 40vh;
+    height: 200px;
     background-color: #333;
     position: relative;
 }
+
+@media only screen and (max-width: 790px) {
+    footer {
+      height: 300px;
+    }
+  }
 
 .footer-lists {
     padding-top: 20px;
@@ -362,7 +368,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-image: url(../images/opening-images/opening-hero-img.jpg);
+    background-image: url(../images/home-images/hero-img-oysters.jpg);
 }
 
 .alt-headings {
@@ -506,10 +512,11 @@ footer {
     margin-right: auto;
     background-color: aliceblue;
     height: fit-content;
-    max-width: 80%;
-    margin-top: 30px;
+    max-width: 60%;
+    margin-top: 150px;
+    margin-bottom: -80px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
