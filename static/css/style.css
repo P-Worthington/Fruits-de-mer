@@ -531,3 +531,11 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+/*map styling */
+
+#map {
+    min-height: 360px;
+    width: 50%;
+    margin-left: 25%;
+}
