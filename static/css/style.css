@@ -546,3 +546,14 @@ footer {
     width: 50%;
     margin-left: 25%;
 }
+
+@media only screen and (min-width: 1445px) {
+    .carousel-container, .food-img {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .hero-img {
+        background-image: url(../images/home-images/oyster-high-res.jpg);
+    }
+}
