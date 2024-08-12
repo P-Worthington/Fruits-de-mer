@@ -558,6 +558,30 @@ footer {
     margin-bottom: 50px;
 }
 
+/*news page styling*/
+
+
+.news-img-page {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.news-row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+.news-page-left {
+    text-align: right;
+}
+
+.news-page-right {
+    display: flex;
+    justify-content: left;
+}
+
 @media only screen and (min-width: 1445px) {
     .carousel-container, .food-img {
         width: 80%;
