@@ -481,6 +481,11 @@ footer {
     padding-bottom: 100px;
 }
 
+.opening {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 .opening-times {
     background-image: url(../images/opening-images/opening-hero-img.jpg);
     position: relative;
@@ -516,6 +521,11 @@ footer {
     letter-spacing: 2px;
 }
 
+.alt-page-content > h5 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 /*menu page styling*/
 
 .alt-hero-box {
@@ -545,6 +555,8 @@ footer {
     margin-right: 10%;
 }
 
+
+
 /*map styling */
 
 #map {
@@ -558,11 +570,15 @@ footer {
     margin-bottom: 50px;
 }
 
+.address-center > ul {
+    list-style: none;
+}
+
 /*news page styling*/
 
 
 .news-img-page {
-    width: 500px;
+    width: 100%;
     height: 500px;
     object-fit: cover;
 }
@@ -570,7 +586,8 @@ footer {
 .news-row {
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .news-page-left {
@@ -578,8 +595,47 @@ footer {
 }
 
 .news-page-right {
-    display: flex;
-    justify-content: left;
+    text-align: left;
+}
+
+/*careers page styling*/
+.form {
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.form > button {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+.form > input, .form > button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form > p {
+    padding-left: 12px;
+}
+
+.checkbox {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    background-color: red;
+}
+
+@media only screen and (max-width: 992px) {
+    .news-center {
+        flex-direction: column-reverse;
+    }
+
+    .news-page-left {
+        text-align: left;
+    }
 }
 
 @media only screen and (min-width: 1445px) {
@@ -590,5 +646,11 @@ footer {
 
     .hero-img {
         background-image: url(../images/home-images/oyster-high-res.jpg);
+    }
+
+    .reduce-width {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
 }

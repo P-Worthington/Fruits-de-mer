@@ -1,4 +1,39 @@
 {% extends "base.html" %}
 {% block content %}
 
+<div class="opening-container">
+    <div class="alt-hero bookings">
+        <div class="title title-light">
+            <h2 class="alt-headings">Careers</h2>
+
+            <div class="alt-hero-box">
+                <p>Want to join the Fruits De Mer team?</p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="alt-page-content reduce-width">
+    <h5>Thank you for your interest in working with us at Fruits De Mer.</h5>
+    <p>We do not have any oppertunities open at the moment. Why not fill out our expression of interest form and we will contact you as soon as a role becomes available.</p>
+</div>
+
+<div>
+    <form class="form">
+        <input type="text" name="First Name" class="form-control" id="fname" placeholder="First Name" required/>
+        <input type="text" name="Last Name" class="form-control" id="lname" placeholder="Last Name" required/>
+        <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+        <p>Choose prefered role:</p>
+        <select class="form-select" aria-label="Default select example">
+            <option value="Chef">Chef</option>
+            <option value="Kitchen Porter">Kitchen Porter</option>
+            <option value="Front of House">Front of House</option>
+            <option value="Bar Staff">Bar Staff</option>
+            <option value="Manager">Manager</option>
+        </select>
+        <button type="submit" class="btn btn-secondary center-block">Submit</button>
+    </form>
+</div>
+
 {% endblock %}
