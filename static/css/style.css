@@ -189,17 +189,18 @@ span {
     position: relative;
 }
 
-.carousel-content {
+#carousel-content {
     position: absolute;
     z-index: 98;
     bottom: 80px;
     left: 0;
     right: 0;
-    background-color: whitesmoke;
+    background-color: aliceblue;
     text-align: center;
     width: fit-content;
     max-width: 400px;
     height: fit-content;
+    border-radius: 2px;
 }
 
 .overlay-image {
@@ -247,7 +248,7 @@ span {
     top: 0;
 }
 
-.carousel-content h2 {
+#carousel-content h2 {
     margin-top: 10px;
     font-size: 20px;
     text-transform: uppercase;
@@ -256,12 +257,12 @@ span {
     margin-bottom: 10px;
 }
 
-.carousel-content p {
+#carousel-content p {
     font-family: "Cinzel", serif;
     font-weight: 500;
 }
 
-.carousel-content a {
+#carousel-content a {
     color: black;
     letter-spacing: 1px;
 }
