@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="opening-container">
+    <div class="alt-hero bookings">
+        <div class="title title-light">
+            <h2 class="alt-headings">Error 404</h2>
+
+            <div class="alt-hero-box">
+                <p>Oops seems like the page you are looking for does not exist!</p>
+            </div>
+
+            <div class="make-res">
+                <a href="{{ url_for('index') }}"><button type="button" class="btn btn-light">Back to Home</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
