@@ -414,7 +414,7 @@ footer {
 
 .calendar-outer {
     margin-top: 30px;
-    width: 500px;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
@@ -432,13 +432,14 @@ footer {
     margin-top: 2em;
   }
   
-  header {
+  .calendar-top {
     margin: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
   }
+  
   .header-display {
     display: flex;
     align-items: center;
@@ -493,6 +494,12 @@ footer {
     padding: 20px 20px;
     text-align: center;
   }
+
+.no-click {
+    pointer-events: none;
+    cursor: not-allowed;
+    color: lightgray;
+}
 
 
 /*opening.html styling*/

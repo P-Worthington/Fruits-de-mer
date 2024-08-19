@@ -81,12 +81,39 @@ next.addEventListener("click", () => {
         year = year + 1;
     }
 
+    limit = threeMonth ()
+    console.log(limit)
+
     month = month + 1;
     date.setMonth(month);
+    console.log(month);
+
+    if (month === limit) {
+        document.getElementById("next").classList.add("no-click")
+    }
+
+    document.getElementById("prev").classList.remove("no-click")
 
     displayCalendar();
     displaySelected();
 });
+
+function threeMonth () {
+    const d = new Date();
+    let currMonth = d.getMonth();
+    currMonth += 3
+
+    if (currMonth === 12) {
+        currMonth = 0;
+    } else if (currMonth === 13) {
+        currMonth = 1;
+    } else if (currMonth === 14) {
+        currMonth = 2;
+    }
+
+    return currMonth;
+
+}
 
 function displaySelected() {
     const dayElements = document.querySelectorAll(".days div");
