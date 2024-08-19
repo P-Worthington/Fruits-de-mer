@@ -293,6 +293,7 @@ span {
     margin-top: 15px;
     margin-right: 20px;
     margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 .news-right {
@@ -319,6 +320,15 @@ span {
 .news-text {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.news-anchor {
+    text-decoration: none;
+    color: black;
+}
+
+.news-anchor:hover {
+    text-decoration: underline;
 }
 
 /*footer*/
