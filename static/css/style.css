@@ -81,6 +81,16 @@ body {
     right: 0;
 }
 
+.hidden {
+    z-index: 97;
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .navigation-content {
     width: 90%;
     margin-left: 5%;
