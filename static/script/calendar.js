@@ -64,9 +64,21 @@ previous.addEventListener("click", () => {
         year = year - 1;
     }
 
+    console.log(month)
     month = month - 1;
+    console.log(month)
+
+    const d = new Date();
+    let currMonth = d.getMonth();
+    console.log(currMonth)
+
+    if (currMonth === month) {
+        document.getElementById("prev").classList.add("no-click")
+    }
 
     date.setMonth(month);
+
+    document.getElementById("next").classList.remove("no-click")
 
     displayCalendar();
     displaySelected();
@@ -82,11 +94,9 @@ next.addEventListener("click", () => {
     }
 
     limit = threeMonth ()
-    console.log(limit)
 
     month = month + 1;
     date.setMonth(month);
-    console.log(month);
 
     if (month === limit) {
         document.getElementById("next").classList.add("no-click")
